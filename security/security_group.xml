@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="school_management_security_group" model="ir.module.category">
+        <field name="name">School Management Security Group</field>
+    </record>
+
+    <record id="school_management_security_group_admin" model="res.groups">
+        <field name="name">School Management Admin</field>
+        <field name="category_id" ref="school_management_security_group"/>
+    </record>
+
+    <record id="school_management_security_group_teacher" model="res.groups">
+        <field name="name">School Management Teacher</field>
+        <field name="category_id" ref="school_management_security_group"/>
+    </record>
+
+</odoo>

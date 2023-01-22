@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+        <menuitem name="Daffodil Internation University" id="school_menu_root"/>
+
+        <menuitem name="Student" id="student_list"
+                  parent="school_menu_root"
+                  action="open_view_student_tree"
+        />
+        <menuitem name="Teacher" id="teacher_list"
+                  parent="school_menu_root"
+                  action="open_view_teacher_tree"
+        />
+        <menuitem name="Section" id="section_list"
+                  parent="school_menu_root"
+                  action="open_view_section_tree"
+        />
+        <menuitem name="Course" id="course_list"
+                  parent="school_menu_root"
+                  action="open_view_course_tree"
+        />
+        <menuitem name="Registration" id="registration_list"
+                  parent="school_menu_root"
+                  action="open_view_registration_tree"
+
+        />
+    </data>
+</odoo>
